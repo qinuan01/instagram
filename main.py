@@ -163,7 +163,7 @@ class ins():
         }
         r = self.s.post('https://www.instagram.com/graphql/query',headers=headers, data=data,)
         video_url=r.text.replace(r'\u0026', '&')
-        logger.debug(video_url)
+       # logger.debug(video_url)
         self.video_url=extract_content(video_url,('"video_url":"','",'))
      #   if self.video_url:
         #    logger.success(self.video_url)
@@ -186,11 +186,12 @@ class ins():
         logger.success(r.url)
     def _start(self):
         self._ins_get()
+       # self._get_ruling()
         self._ins_post()
-        self._get_ruling()
+
         return self.video_url
 if __name__ == '__main__':
-    url='https://www.instagram.com/p/DGqSzm6MmIL/'
+    url='https://www.instagram.com/reels/DGldfT_NtOf/'
     proxy='127.0.0.1:2080'
     v=ins(url,proxy)._start()
     logger.success(v)
