@@ -1,6 +1,4 @@
-import random
-from curl_cffi import requests,CurlHttpVersion
-from loguru import logger
+import random;from curl_cffi import requests,CurlHttpVersion;from loguru import logger
 def extract_content(text, markers):
     """
     从给定的字符串中提取指定标记之间的内容。
@@ -188,8 +186,8 @@ class ins():
         logger.success(r.url)
     def _start(self):
         self._ins_get()
-        self._get_ruling()
         self._ins_post()
+        self._get_ruling()
         return self.video_url
 if __name__ == '__main__':
     url='https://www.instagram.com/p/DGqSzm6MmIL/'
