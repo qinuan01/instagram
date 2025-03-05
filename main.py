@@ -98,7 +98,6 @@ class ins():
             'x-ig-app-id':  self.app_id,
             'x-ig-www-claim': '0',
             'x-requested-with': 'XMLHttpRequest',
-            'x-web-session-id': '5izh7l:0qymj0:jgafh3',
            }
 
         params = {
@@ -145,7 +144,7 @@ class ins():
             'dpr': '1',
             '__ccg': 'UNKNOWN',
             '__rev': self.__rev,
-            '__s': '5izh7l:0qymj0:jgafh3',
+
             '__hsi': self.__hsi,
            # '__dyn': '7xeUjG1mxu1syUbFp41twpUnwgU7SbzEdF8aUco2qwJw5ux609vCwjE1EE2Cw8G11wBz81s8hwGxu786a3a1YwBgao6C0Mo2swtUd8-U2zxe2GewGw9a361qw8Xxm16wa-0raazo7u3C2u2J0bS1LwTwKG1pg2fwxyo6O1FwlEcUed6goK2O4UrAwHxW1oxe17wGw9CubBKu9w',
             #'__csr': 'gjhcf8JkztYhKJFq_qjylijQG_FbF4oCVGJAKiVEyvjyXAJ2FEGX8uq4WG26uA499iqayaKV69g-KitojzdRHKXyeuK6VAV9V5AhoKESmaDgyQ4ULLy4eCyFbJ6J9ohiVozgOmHG5pUkCBDU8krz8gXhA7pojVEqQ9wLDxW00jooE2wwmVFBhhazE31w9C5F7wIx2aK1FBg1yEK0aOw59w3BU0D91xwaBk2i1ECwyw6ig623qy1PEq5EcUK3y31j0nUS0xjw8B0qEap4aw8219fCk800tcGw6Mw1vS',
@@ -191,7 +190,8 @@ class ins():
 
         return self.video_url
 if __name__ == '__main__':
-    url='https://www.instagram.com/reels/DGldfT_NtOf/'
+   # url='https://www.instagram.com/p/DFsAS4RiIkU/'
+    url=input("链接：")
     proxy='127.0.0.1:2080'
     v=ins(url,proxy)._start()
     logger.success(v)
