@@ -8,7 +8,7 @@
 ## 交流群
 欢迎加入我们的 ins视频获取交流群，一起交流学习！
 
-交流群：1036511655
+tg: @novoline0616 交流群：1036511655
 
 ## 相关链接
 - [Instagram 官网](https://www.instagram.com)
