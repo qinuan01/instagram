@@ -1,4 +1,4 @@
-# Instagram 视频获取工具
+# Instagram (ins)视频获取工具
 
 ## 功能特性
 - 高速下载 - 轻松获取 ins视频。
