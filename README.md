@@ -2,17 +2,17 @@
 
 ## 功能特性
 - 高速下载 - 轻松获取 ins视频。
-- 简洁易用 - 只需提供视频链接即可。
+- 简洁易用 - 只需提供链接即可。
 - 自定义解析 - 支持多种解析方式。
 
 ## 交流群
 欢迎加入我们的 ins视频获取交流群，一起交流学习！
 
-tg: @novoline0616 交流群：1036511655
+tg: @qin_uan
 
 ## 相关链接
-- [Instagram 官网](https://www.instagram.com)
-- [GitHub 项目地址](https://github.com/qinuan01/instagram)
+- [我自己搭的网站](https://ins.0v0.wtf)
+
 
 欢迎 Star 支持项目！
 
