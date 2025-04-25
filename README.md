@@ -11,7 +11,7 @@
 tg: @qin_uan
 
 ## 相关链接
-- [我自己搭的网站](https://ins.0v0.wtf)
+- [试用网站](https://ins.0v0.wtf)
 
 
 欢迎 Star 支持项目！
